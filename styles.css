@@ -1,0 +1,42 @@
+.container {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: blueviolet;
+    
+}
+
+
+.demo {
+    display: flex;
+    gap: 15px;
+    padding: 20px;
+    background-color: turquoise;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    border: 1px solid aqua;
+    border-radius: 5px;
+    transition: background-color 1s, transform 1s;
+}
+
+.juan {
+    background-color: cornflowerblue;
+
+}
+.fizz:hover{
+    background-color: rgb(132, 39, 194);
+   
+}
+.buzz:hover {
+    background-color: rgb(208, 255, 0) ;
+    transform: translateY(-5px);
+}
+
+.fizzbuzz:hover {
+  background-color: brown;
+  transform: rotate(5deg);
+}
